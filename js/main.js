@@ -39,6 +39,7 @@ $(function(){
         $(".li11popuptxt").css(`color`,`#fff`)
         $(".li12popuptxt").css(`color`,`#fff`)
         $(".page path").css(`fill`,`#fff`)
+        $('.icon').prop('href', "./img/moon.png")
     })
     $(".sun").click(function(){
         $("html").css(`background`, `#fff`)
@@ -59,6 +60,7 @@ $(function(){
         $(".li11popuptxt").css(`color`,`#000`)
         $(".li12popuptxt").css(`color`,`#000`)
         $(".page path").css(`fill`,`#333`)
+        $('.icon').prop('href', "./img/sun.png")
     })
 
 
