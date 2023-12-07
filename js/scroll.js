@@ -57,7 +57,7 @@ $(function(){
             }
         }
         // 동그라미가 커지는 동작
-        animationScroll(6,9,".redCircle",perTrain)
+        animationScroll(6,7,".redCircle",perTrain)
         animationScroll(9,12,".yellowCircle_2",perTrain)
         animationScroll(16,19,".blueCircle_3",perTrain)
         animationScroll(19,22,".greenCircle_4",perTrain)
@@ -84,7 +84,7 @@ $(function(){
         contentsOpa(".tab",79,perTrain)
         contentsOpa(".phone",82,perTrain)
         contentsOpa(".redesignBox",86,perTrain)
-        contentsOpa(".clickDeco",57,perTrain)
+        contentsOpa(".clickDeco",56,perTrain)
         contentsOpa(".li2popuptxt",12,perTrain)
         contentsOpa(".li4popuptxt",23,perTrain)
         contentsOpa(".li5popuptxt",29,perTrain)
