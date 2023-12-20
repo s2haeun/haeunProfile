@@ -65,7 +65,7 @@ $(function(){
 
 
     // menu
-    console.log($("html,body").scrollTop())
+    // console.log($("html,body").scrollTop())
     $(".menuLIIntro").click(function(){
         $("html,body").animate({scrollTop:0},1500)
     })
@@ -190,7 +190,7 @@ $(function(){
         let pathLength = thisList.find(".skillPath2").get(0).getTotalLength()
         // thisList.find(".skillPath2").css("stroke-dashoffset",pathLength)
         // thisList.find(".skillPath2").css("stroke-dasharray",pathLength)
-        console.log(pathLength)
+        // console.log(pathLength)
         
 
         let timer = setInterval(function(){

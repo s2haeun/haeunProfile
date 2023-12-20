@@ -1,6 +1,6 @@
 $(function(){
 
-    console.log(popupArray)
+    // console.log(popupArray)
 
     function insertPopup(index){
         let colorPaletteResult = ""
