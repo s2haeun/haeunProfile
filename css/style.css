@@ -16,23 +16,23 @@ html{
 
 /* font */
 
-#Pacifico{font-family: 'Pacifico', cursive;}
-#hanna{font-family: 'hanna'}
-#jua{font-family: 'BMJUA';}
-#jalnan{font-family: 'yg-jalnan'}
-#Dangam{font-family: 'CWDangamAsac-Bold';}
-#mbc{font-family: 'MBC1961M';}
-#Archivo{font-family: 'Archivo Black', sans-serif;}
-#Zeyada{font-family: 'Zeyada', cursive;}
-#noto{font-family: 'Noto Sans KR', sans-serif;}
-#one{font-family: 'ONE-Mobile-Title';}
-#krist{font-family: "ITCKRIST";}
-#letter{font-family: "letter";}
-#Hakgyo{font-family: 'HakgyoansimGodeunjemokB';}
-#Futura{font-family: "Futura";}
-#FuturaM{font-family: "FuturaM";font-size: 1.1em;}
-#NewYork{font-family: "NewYork";}
-#neo{font-family: 'NanumSquareNeo-Variable';}
+.Pacifico{font-family: 'Pacifico'!important, cursive;}
+.hanna{font-family: 'hanna'!important}
+.jua{font-family: 'BMJUA'!important;}
+.jalnan{font-family: 'yg-jalnan'!important}
+.Dangam{font-family: 'CWDangamAsac-Bold'!important;}
+.mbc{font-family: 'MBC1961M'!important;}
+.Archivo{font-family: 'Archivo Black', sans-serif!important;}
+.Zeyada{font-family: 'Zeyada'!important, cursive;}
+.noto{font-family: 'Noto Sans KR'!important, sans-serif;}
+.one{font-family: 'ONE-Mobile-Title'!important;}
+.krist{font-family: "ITCKRIST"!important;}
+.letter{font-family: "letter"!important;}
+.Hakgyo{font-family: 'HakgyoansimGodeunjemokB'!important;}
+.Futura{font-family: "Futura"!important;}
+.FuturaM{font-family: "FuturaM"!important;font-size: 1.1em;}
+.NewYork{font-family: "NewYork"!important;}
+.neo{font-family: 'NanumSquareNeo-Variable'!important;}
 /* scrollbar */
 body{
     -ms-overflow-style: none;
