@@ -7,7 +7,7 @@ $(function(){
     let pathArray = []
     $(".train>li").each(function(){
         let pathLength = $(this).children().children("path").get(0).getTotalLength()
-        console.log(pathLength)
+        // console.log(pathLength)
         pathArray.push(pathLength)
         $(this).children().children("path").css("stroke-dasharray",pathLength)
         $(this).children().children("path").css("stroke-dashoffset",pathLength)
@@ -35,7 +35,7 @@ $(function(){
         // console.log(`전체 기차가 ${perTrain}% 이동중`)
         // console.log(`현재 ${idx}번째 슬라이드가 ${pathMove}% 이동중이다`)
         // console.log(bg1pathLength-(bg1pathLength*sPer))
-        console.log(`전체 스크롤이 ${perTrain}이동`)
+        // console.log(`전체 스크롤이 ${perTrain}이동`)
         
         //기차가 이동하는 소스
         $(".train").css("transform",`translateX(${-perTrain}%)`)
